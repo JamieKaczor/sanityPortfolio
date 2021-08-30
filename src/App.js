@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -16,10 +17,9 @@ function App() {
         <Route component={SinglePost} path='/post/:slug' />
         <Route component={Post} path='/post' />
         <Route component={Project} path='/project' />
-
       </Switch>
     </BrowserRouter>
-  )
+  );
 }
 
 export default App;
