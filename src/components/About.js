@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import sanityClient from "../client.js";
-import cyberbackground from "../cyberbackground.jpg";
+import cyberbackground from "../cyberbackground1.jpg";
 import imageUrlBuilder from "@sanity/image-url";
 
 const builder = imageUrlBuilder(sanityClient);
