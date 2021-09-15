@@ -52,6 +52,18 @@ export default function NavBar() {
                         target="_blank"
                         fgColor="#fff"
                         style={{ height: 35, width: 35 }} />
+                        <SocialIcon
+                        url="mailto:dignanjk@aol.com"
+                        className="mr-4"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 35, width: 35 }} />
+                        <SocialIcon
+                        url="https://docs.google.com/document/d/1dcItI-BPBX0UD92sHVdS35m2SYC4Hzmc5ojKLsIONGI/edit?usp=sharing"
+                        className="mr-4"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 35, width: 35 }} />
                 </div>
             </div>
         </header>
